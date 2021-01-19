@@ -6,6 +6,7 @@ namespace RefandOutExamples
     {
         static void Main(string[] args)
         {
+            //out keyword
             int value_1;
             int value_2 = 20;
             int result = Add(out value_1, value_2);
@@ -13,6 +14,7 @@ namespace RefandOutExamples
             Console.WriteLine(value_1);
             Console.WriteLine("Sonuç :"+result);
 
+            //ref keyword
             int number1 = 112;
             int number2 = 13;
             int total = Add2(ref number1,number2);
